@@ -1,0 +1,39 @@
+.main-article {
+  padding: 12em 10em;
+}
+
+.main-article-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-article-img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.main-article-text-container {
+  text-align: center;
+}
+
+.main-article-text-container h1 {
+  font-size: 2.5em;
+}
+
+.main-article-text-container p {
+  margin: 30px 0 40px;
+}
+
+.button-blue {
+  background: blue;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.button-blue:hover {
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    0px 0px 0px 2px rgba(12, 141, 243, 0.3);
+}
