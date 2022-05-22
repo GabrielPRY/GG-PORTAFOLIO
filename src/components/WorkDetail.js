@@ -1,13 +1,16 @@
 import React from "react";
+import "../css/work.css";
 
 export default function WorkDetail() {
   return (
-    <div>
+    <div className="work-detail-container">
       <figure>
-        <img src={require("../image/reactlogo.png")} />
+        <img className="work-img" src={require("../image/reactlogo.png")} />
       </figure>
-      <h3>React</h3>
-      <p>Conocimientos en React, Hooks, Redux y Native</p>
+      <div className="work-descripcion-container">
+        <h3>React</h3>
+        <p>Conocimientos en React, Hooks, Redux y Native</p>
+      </div>
     </div>
   );
 }

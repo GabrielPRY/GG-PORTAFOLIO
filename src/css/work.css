@@ -1,0 +1,68 @@
+/*WORK*/
+
+.job-article {
+  border-top: 5px solid black;
+  background: #e6e3e3ff;
+  padding: 0 0 20px 0px;
+}
+
+.job-title-container {
+  text-align: center;
+}
+
+.job-title-container h2 {
+  font-size: 2em;
+}
+
+.job-title-container p,
+.job-footer-container p {
+  font-size: 2em;
+}
+
+.job-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+/*WORK DETAIL*/
+
+.work-detail-container {
+  margin: 0 30px;
+}
+
+.work-detail-container figure {
+  margin: 0;
+  text-align: center;
+}
+
+.work-img {
+  width: 340px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.work-descripcion-container {
+  background-color: antiquewhite;
+  position: relative;
+  text-align: center;
+  margin: -30px 0px 30px 0px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 41px;
+}
+
+/*abajo*/
+.job-footer-container {
+  text-align: center;
+}
+
+.button-green {
+  background: green;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  border-radius: 10%;
+  padding: 10px;
+}
