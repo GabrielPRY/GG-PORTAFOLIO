@@ -1,13 +1,20 @@
 import React from "react";
+import "../css/portfolio.css";
 
 export default function PortfolioDetail() {
   return (
-    <div>
+    <div className="portfolio-detail-container">
       <figure>
-        <img src={require("../image/reactlogo.png")}></img>
+        <img
+          className="porfolio-img"
+          src={require("../image/reactlogo.png")}
+          alt="logo"
+        ></img>
       </figure>
-      <a href="#">HG ELECTRICDAD</a>
-      <p>Página de electricidad</p>
+      <div className="porfolio-description-container">
+        <a href="#">HG ELECTRICDAD</a>
+        <p>Página de electricidad</p>
+      </div>
     </div>
   );
 }

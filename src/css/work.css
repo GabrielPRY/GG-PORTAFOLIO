@@ -12,6 +12,7 @@
 
 .job-title-container h2 {
   font-size: 2em;
+  text-decoration: underline;
 }
 
 .job-title-container p,
@@ -41,6 +42,9 @@
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+  box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .work-descripcion-container {
@@ -51,6 +55,9 @@
   padding: 20px;
   border: 1px solid black;
   border-radius: 41px;
+  box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 10px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 /*abajo*/
@@ -65,4 +72,10 @@
   text-decoration: none;
   border-radius: 10%;
   padding: 10px;
+}
+
+.button-green:hover {
+  box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 9px 37px 13px rgba(0, 0, 0, 0.75);
 }
