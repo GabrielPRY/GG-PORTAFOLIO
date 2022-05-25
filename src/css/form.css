@@ -6,7 +6,7 @@
 
 .form-contact {
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr 1fr /0.1fr 0.2fr;
+  grid-template: 0.5fr 0.5fr 1fr 0.5fr 1fr /0.1fr 0.2fr;
   grid-template-areas:
     "nombre email"
     "asunto asunto"
@@ -35,9 +35,12 @@
 
 .contact div:nth-child(5) {
   grid-area: enviar;
+  text-align: right;
+  padding: 20px;
 }
 .contact div:nth-child(6) {
   grid-area: limpiar;
+  padding: 20px;
 }
 
 .input-type1 {
@@ -68,4 +71,48 @@
   font-family: "Open Sans", sans-serif;
   line-height: 1.85em;
   font-weight: 300;
+}
+
+.input-type3 {
+  height: 100%;
+  width: 97%;
+  border: none;
+  background: #282828;
+  padding: 0.75em;
+  font-size: 1em;
+  border-radius: 8px;
+  color: #bbb;
+  box-shadow: inset 0px 2px 3px 1px rgb(0 0 0 / 5%),
+    0px 1px 0px 0px rgb(255 255 255 / 3%);
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.85em;
+  font-weight: 300;
+}
+
+.button-blue {
+  background: blue;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.button-blue:hover {
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    0px 0px 0px 2px rgba(12, 141, 243, 0.3);
+}
+
+.button-grey {
+  background: grey;
+  color: white;
+  font-size: 2em;
+  text-decoration: none;
+  border-radius: 10%;
+  padding: 10px;
+}
+
+.button-grey:hover {
+  box-shadow: inset -1px 3px 8px 5px #1f87ff, 2px 5px 16px 0px #0b325e,
+    0px 0px 0px 2px rgba(12, 141, 243, 0.3);
 }

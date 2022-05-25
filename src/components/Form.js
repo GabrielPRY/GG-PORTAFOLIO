@@ -36,22 +36,23 @@ export default function Form() {
         </div>
 
         <div>
-          <input
+          <textarea
             type="text"
             name="message"
             id="message"
             placeholder="Mensaje"
+            className="input-type3"
           />
         </div>
 
         <div>
-          <button type="submit" value="Send Mesagge">
+          <button type="submit" value="Send Mesagge" className="button-blue">
             Enviar
           </button>
         </div>
 
         <div>
-          <button type="reset" value="Clear Form">
+          <button type="reset" value="Clear Form" className="button-grey">
             Limpiar
           </button>
         </div>

@@ -1,4 +1,3 @@
-import "./App.css";
 import Footer from "./components/Footer";
 import Form from "./components/Form";
 import Main from "./components/Inicio";
